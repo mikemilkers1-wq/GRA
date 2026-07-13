@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finde deine GRA | Demo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="gift-strip">
+    <div class="container">
+      <h2>Waehle dein Demo-Geschenk:</h2>
+      <div class="gift-icons">
+        <img src="assets/gift-set.svg" alt="">
+        <img src="assets/gift-backpack.svg" alt="">
+        <img src="assets/gift-lamp.svg" alt="">
+        <img src="assets/magazine-law.svg" alt="">
+      </div>
+      <a class="btn blue" href="join.html">GRA beitreten</a>
+    </div>
+  </section>
+
+  <header class="join-header">
+    <div class="container">
+      <a href="index.html"><img src="assets/gra-logo.svg" alt="GRA"></a>
+      <strong>GERMAN RIFLE ASSOCIATION</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: linear-gradient(90deg, rgba(6,20,43,.92), rgba(6,20,43,.54)), url('assets/reichstag.jpg'); background-size: cover; background-position: center;">
+      <div class="container" style="grid-template-columns: minmax(0, 760px);">
+        <div>
+          <h1>Finde deine GRA</h1>
+          <p>Egal, ob du dich fuer Vereinspraxis, Sachkunde, sichere Aufbewahrung, deutsche Sportgeraete oder rechtliche Orientierung interessierst: Diese Demo zeigt dir passende GRA-Wege.</p>
+          <a class="btn blue" href="#finder">Programme finden</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact" id="finder">
+      <div class="container">
+        <h2>Finde deine GRA</h2>
+        <p>Kein echter Buchungsdienst. Alle Treffer sind beispielhafte Demo-Eintraege.</p>
+        <div class="accordion">
+          <article class="accordion-item">
+            <button type="button">Kostenloses Monatsmagazin <span>⌄</span></button>
+            <div class="accordion-content">
+              <p>Waehle zwischen GRA Sport und GRA Recht. Die Auswahl bleibt in dieser Demo lokal.</p>
+            </div>
+          </article>
+          <article class="accordion-item">
+            <button type="button">Rechtslage verstehen <span>⌄</span></button>
+            <div class="accordion-content">
+              <p>Grundgesetz Art. 9, WaffG Paragraf 4, 10 und 36 dienen als Quellen fuer den redaktionellen Kontext.</p>
+            </div>
+          </article>
+          <article class="accordion-item">
+            <button type="button">Ressourcen fuer Jaeger und Sammler <span>⌄</span></button>
+            <div class="accordion-content">
+              <p>Die Demo trennt jagdliche Tradition, Sammlung und sportliche Nutzung klar von konkreter Rechtsberatung.</p>
+            </div>
+          </article>
+          <article class="accordion-item">
+            <button type="button">Sicherheits- und Sachkundeangebote <span>⌄</span></button>
+            <div class="accordion-content">
+              <p>Schwerpunkte: sichere Aufbewahrung, verantwortungsvolle Vereinsarbeit und Behoerdenwege.</p>
+            </div>
+          </article>
+          <article class="accordion-item">
+            <button type="button">Mitgliedervorteile <span>⌄</span></button>
+            <div class="accordion-content">
+              <p>Demo-Vorteile umfassen Newsletter, Magazine, regionale Termine und ein simuliertes Member-Services-Portal.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container find-panel">
+        <h2>GRA in deiner Naehe</h2>
+        <p>Alle Ergebnisse im Umkreis von 50 km</p>
+        <div class="button-row" style="justify-content:center;">
+          <button class="btn" type="button" data-info>Suche bearbeiten</button>
+          <a class="btn blue" href="join.html">1 Jahr fuer €45</a>
+        </div>
+        <div class="legend-row">
+          <span class="pin">Sachkunde</span>
+          <span class="pin green">Verein</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Name</th><th>Typ</th><th>Entfernung</th><th>Datum</th><th>Info</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>GRA Sicherheitsabend Berlin-Mitte</td><td>Sachkunde</td><td>3,73 km</td><td>18.09.2026</td><td><button data-info class="btn outline">Info</button></td></tr>
+              <tr><td>GRA Vereinsrunde Potsdam</td><td>Verein</td><td>12,7 km</td><td>16.10.2026</td><td><button data-info class="btn outline">Info</button></td></tr>
+              <tr><td>GRA Aufbewahrung kompakt</td><td>Sachkunde</td><td>18,4 km</td><td>08.08.2026</td><td><button data-info class="btn outline">Info</button></td></tr>
+              <tr><td>GRA Jugendtraining Brandenburg</td><td>Verein</td><td>29,2 km</td><td>22.08.2026</td><td><button data-info class="btn outline">Info</button></td></tr>
+              <tr><td>GRA Recht & Praxis Leipzig</td><td>Sachkunde</td><td>49,2 km</td><td>29.08.2026</td><td><button data-info class="btn outline">Info</button></td></tr>
+              <tr><td>GRA Trainerdialog Dresden</td><td>Verein</td><td>49,2 km</td><td>26.09.2026</td><td><button data-info class="btn outline">Info</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination"><span>1 - 6 von 245 Demo-Eintraegen</span><span>1 2 3 4 5 6 7 ...</span></div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="sticky-actions" aria-label="Mitgliedschaft">
+    <div class="container">
+      <a class="btn blue" href="join.html">1 Jahr fuer €45</a>
+      <a class="btn outline" href="join.html#plans">Alle Plaene ansehen</a>
+    </div>
+  </nav>
+
+  <footer class="join-footer">
+    <div class="container">
+      <p>GRA Finder Demo. Keine realen Buchungen, keine Datenuebertragung.</p>
+      <p><a href="index.html">GRA Home</a> · <a href="member-services.html">Member Services</a> · <a href="index.html#sources">Impressum Demo</a></p>
+    </div>
+  </footer>
+
+  <div class="chat-widget compact" id="chatWidget">
+    <div class="chat-prompt">
+      <h3>Wie koennen wir helfen?</h3>
+      <div class="chat-actions"><button id="dismissChat" type="button">Schliessen</button><button id="chatNow" type="button">Chat starten</button></div>
+    </div>
+    <button class="chat-button" id="liveChatButton" type="button">▰ Live Chat</button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

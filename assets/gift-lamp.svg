@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="260" viewBox="0 0 440 260" role="img" aria-labelledby="title">
+  <title id="title">GRA range lamp gift mockup</title>
+  <rect width="440" height="260" fill="none"/>
+  <rect x="92" y="111" width="238" height="38" rx="18" fill="#111"/>
+  <rect x="270" y="101" width="74" height="58" rx="12" fill="#2d333d"/>
+  <circle cx="344" cy="130" r="42" fill="#1a2028"/>
+  <circle cx="344" cy="130" r="25" fill="#f4cf59"/>
+  <rect x="88" y="121" width="48" height="18" fill="#d41f1f"/>
+  <text x="155" y="137" font-family="Arial Black, Arial, sans-serif" font-size="20" fill="#fff">GRA</text>
+</svg>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GRA Suche | Demo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container">
+      <a class="explore-brand" href="index.html">GRA EXPLORE <span aria-hidden="true">⌄</span></a>
+      <nav class="top-links" aria-label="Schnellzugriff">
+        <a href="join.html">Beitreten</a>
+        <a href="member-services.html">Verwalten</a>
+        <a href="join.html#payment">Spenden</a>
+      </nav>
+      <div class="social-row"><span class="social-dot">f</span><span class="social-dot">X</span><span class="social-dot">▶</span><span class="social-dot">◎</span></div>
+    </div>
+  </div>
+
+  <header class="main-nav" aria-label="Hauptnavigation">
+    <div class="container">
+      <a class="brand-logo" href="index.html"><img src="assets/gra-logo.svg" alt="GRA German Rifle Association"></a>
+      <nav class="nav-menu" aria-label="Themen">
+        <div class="nav-item" data-menu="news"><button class="nav-trigger" type="button">News <span class="chev"></span></button><div class="mega-pop"></div></div>
+        <div class="nav-item" data-menu="videos"><button class="nav-trigger" type="button">Videos <span class="chev"></span></button><div class="mega-pop"></div></div>
+        <div class="nav-item" data-menu="legal"><button class="nav-trigger" type="button">Recht <span class="chev"></span></button><div class="mega-pop"></div></div>
+        <div class="nav-item" data-menu="safety"><button class="nav-trigger" type="button">Sicherheit <span class="chev"></span></button><div class="mega-pop"></div></div>
+        <div class="nav-item" data-menu="competitive"><button class="nav-trigger" type="button">Sportschiessen <span class="chev"></span></button><div class="mega-pop"></div></div>
+        <div class="nav-item" data-menu="clubs"><button class="nav-trigger" type="button">Vereine <span class="chev"></span></button><div class="mega-pop"></div></div>
+        <div class="nav-item" data-menu="events"><button class="nav-trigger" type="button">Events <span class="chev"></span></button><div class="mega-pop"></div></div>
+      </nav>
+      <div class="nav-actions">
+        <button class="more-btn" type="button" data-open-drawer>Mehr <span class="hamburger"><span></span></span></button>
+        <button class="icon-btn" type="button" data-open-search aria-label="Suche oeffnen">⌕</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <header class="page-header">
+        <h1 class="page-title" id="searchTerm">GRA</h1>
+        <p id="resultCount">Demo-Ergebnisse</p>
+      </header>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img class="footer-logo" src="assets/gra-logo.svg" alt="GRA">
+      <div class="disclaimer">
+        <strong>Hinweis:</strong> Suche und Treffer sind lokale Demo-Inhalte. Es wird nichts an einen Server gesendet.
+        <div class="legal-links"><a href="index.html">GRA Home</a><a href="index.html#sources">Impressum Demo</a><a href="join.html">Mitglied werden</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer" id="drawer" aria-label="Mehr Menue">
+    <div class="drawer-main">
+      <div class="drawer-head"><h2>Quick Links</h2><button class="drawer-close" type="button" data-close-drawer>&times;</button></div>
+      <div class="drawer-panel"><a class="drawer-row" href="join.html">GRA-Mitgliedschaft waehlen</a><a class="drawer-row" href="member-services.html">Mitgliedschaft pruefen</a></div>
+      <div class="drawer-panel">
+        <h3>Interessen</h3>
+        <button class="drawer-row" type="button" data-sub="latest-news">Aktuelle Meldungen <span>›</span></button>
+        <button class="drawer-row" type="button" data-sub="latest-videos">Videos <span>›</span></button>
+        <button class="drawer-row" type="button" data-sub="legislative">Recht & Gesetz <span>›</span></button>
+        <button class="drawer-row" type="button" data-sub="safety">Sicherheit <span>›</span></button>
+        <button class="drawer-row" type="button" data-sub="competitive">Sportschiessen <span>›</span></button>
+        <button class="drawer-row" type="button" data-sub="clubs">Vereine <span>›</span></button>
+        <button class="drawer-row" type="button" data-sub="events">Events <span>›</span></button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="search-overlay" id="searchOverlay">
+    <form class="container" id="searchForm">
+      <input id="siteSearch" type="search" placeholder="GRA durchsuchen">
+      <button type="submit">Suchen</button>
+      <button class="search-close" id="searchClose" type="button" aria-label="Suche schliessen">&times;</button>
+    </form>
+  </div>
+
+  <div class="chat-widget compact" id="chatWidget">
+    <div class="chat-prompt">
+      <h3>Wie koennen wir helfen?</h3>
+      <div class="chat-actions"><button id="dismissChat" type="button">Schliessen</button><button id="chatNow" type="button">Chat starten</button></div>
+    </div>
+    <button class="chat-button" id="liveChatButton" type="button">▰ Live Chat</button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

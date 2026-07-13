@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="480" viewBox="0 0 360 480" role="img" aria-labelledby="title">
+  <title id="title">GRA Recht magazine cover mockup</title>
+  <rect width="360" height="480" fill="#f4f1e8"/>
+  <rect y="0" width="360" height="82" fill="#111"/>
+  <rect y="82" width="360" height="18" fill="#d0a33b"/>
+  <text x="22" y="57" font-family="Arial Black, Arial, sans-serif" font-size="42" fill="#fff">GRA RECHT</text>
+  <circle cx="180" cy="218" r="96" fill="#d41f1f" opacity=".13"/>
+  <path d="M96 286h168v18H96zM132 126h96v18h-96zM174 144h12v128h-12z" fill="#1c2737"/>
+  <path d="M110 156h140l-52 95h-36z" fill="#c9972d"/>
+  <text x="30" y="367" font-family="Arial Black, Arial, sans-serif" font-size="31" fill="#111">WaffG kompakt</text>
+  <text x="30" y="407" font-family="Arial, sans-serif" font-size="21" fill="#333">Vereinsarbeit, Aufbewahrung,</text>
+  <text x="30" y="433" font-family="Arial, sans-serif" font-size="21" fill="#333">Sachkunde und Termine</text>
+</svg>
