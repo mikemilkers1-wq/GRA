@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">GRA German Rifle Association Logo</title>
+  <desc id="desc">Original fictional GRA logo in German flag colors.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#c9972d"/>
+      <stop offset="1" stop-color="#f4cf59"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="190" fill="none"/>
+  <g transform="translate(16 15)">
+    <circle cx="80" cy="80" r="74" fill="#111"/>
+    <circle cx="80" cy="80" r="66" fill="url(#gold)"/>
+    <circle cx="80" cy="80" r="53" fill="#d41f1f"/>
+    <path d="M52 98c9-29 35-45 58-60-8 15-12 30-10 44 11-6 23-8 38-7-16 8-27 17-34 28 7 2 14 6 21 13-19-1-35-5-49-12-10 5-22 7-37 6 5-4 9-8 13-12z" fill="#111"/>
+    <path d="M40 112h83v10H40z" fill="#fff" transform="rotate(-17 81 117)"/>
+    <path d="M42 117h82v5H42z" fill="#d41f1f" transform="rotate(-17 83 120)"/>
+    <text x="80" y="144" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#fff">2026</text>
+  </g>
+  <g transform="translate(190 37)">
+    <text x="0" y="65" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="82" font-weight="900" fill="#0b0d12">GRA</text>
+    <rect x="2" y="88" width="430" height="9" fill="#111"/>
+    <rect x="2" y="100" width="430" height="9" fill="#d41f1f"/>
+    <rect x="2" y="112" width="430" height="9" fill="#d0a33b"/>
+    <text x="0" y="151" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" letter-spacing="0" fill="#1c2737">GERMAN RIFLE ASSOCIATION</text>
+  </g>
+</svg>

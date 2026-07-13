@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GRA Beitreten</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="gift-strip">
+    <div class="container">
+      <h2>Waehle dein Willkommenspaket:</h2>
+      <div class="gift-icons">
+        <img src="assets/gra-range-bag.jpg" alt="">
+        <img src="assets/gra-range-backpack.jpg" alt="">
+        <img src="assets/gra-flashlight.jpg" alt="">
+        <img src="assets/gra-dm-event.jpg" alt="">
+      </div>
+      <a class="btn blue" href="#plans">GRA beitreten</a>
+    </div>
+  </section>
+
+  <header class="join-header">
+    <div class="container">
+      <a href="index.html"><img src="assets/gra-logo.svg" alt="GRA"></a>
+      <strong>GERMAN RIFLE ASSOCIATION</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="join-hero">
+      <div class="container join-intro">
+        <div>
+          <h1>Willkommen!</h1>
+          <p>Dein Beitritt unterstuetzt die GRA dabei, Informationen zu Vereinspraxis, Sicherheit und deutschem Rechtsrahmen uebersichtlich bereitzustellen.</p>
+          <p><strong>Bitte waehle unten eine Mitgliedschaftsoption.</strong></p>
+        </div>
+        <div class="member-hero-img">
+          <img src="assets/gra-shooting-gear.jpg" alt="GRA Mitgliedschaft">
+        </div>
+      </div>
+    </section>
+
+    <section class="join-options" id="plans">
+      <div class="container">
+        <article class="offer-row">
+          <img src="assets/gra-range-bag.jpg" alt="Starterset">
+          <div><h2>Ein-Jahres-Mitgliedschaft</h2><p>Dein Geschenk: GRA Starterset</p><a href="#magazines">Details ansehen »</a></div>
+          <div class="price">€45</div>
+          <button class="btn red" type="button" data-add-plan="Ein-Jahres-Mitgliedschaft">In den Warenkorb</button>
+        </article>
+        <article class="offer-row">
+          <img src="assets/gra-range-backpack.jpg" alt="Rucksack">
+          <div><h2>Zwei-Jahres-Mitgliedschaft</h2><p>Dein Geschenk: GRA Vereinsrucksack</p><a href="#magazines">Details ansehen »</a></div>
+          <div class="price">€75</div>
+          <button class="btn red" type="button" data-add-plan="Zwei-Jahres-Mitgliedschaft">In den Warenkorb</button>
+        </article>
+        <article class="offer-row">
+          <img src="assets/gra-flashlight.jpg" alt="Lampe">
+          <div><h2>Drei-Jahres-Mitgliedschaft</h2><p>Dein Geschenk: GRA Standlampe</p><a href="#magazines">Details ansehen »</a></div>
+          <div class="price">€100</div>
+          <button class="btn red" type="button" data-add-plan="Drei-Jahres-Mitgliedschaft">In den Warenkorb</button>
+        </article>
+        <article class="offer-row">
+          <img src="assets/gra-shooting-gear.jpg" alt="Foerderpaket">
+          <div><h2>Foerdermitgliedschaft auf Lebenszeit</h2><p>Dein Geschenk: GRA Foerderpaket</p><a href="#magazines">Details ansehen »</a></div>
+          <div class="price">€1500</div>
+          <button class="btn red" type="button" data-add-plan="Foerdermitgliedschaft">In den Warenkorb</button>
+        </article>
+      </div>
+    </section>
+
+    <form id="orderForm">
+      <section class="magazines" id="magazines">
+        <div class="container">
+          <h2>Magazin-Abo</h2>
+          <p>Ausgewaehlter Plan: <strong id="selectedPlan">Noch keiner</strong></p>
+          <div class="magazine-options">
+            <label><img src="assets/gra-dm-event.jpg" alt="GRA Sport"><br><input type="radio" name="magazine" checked> GRA Sport</label>
+            <label><img src="assets/reichstag.jpg" alt="GRA Recht"><br><input type="radio" name="magazine"> GRA Recht</label>
+          </div>
+          <label><input type="radio" name="magazine"> Nein danke, ich moechte kein Magazin erhalten.</label>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container info-form">
+          <h2 style="text-align:center;">Deine Informationen</h2>
+          <div class="form-grid">
+            <div class="field full"><label for="memberId">Bestehendes Mitglied? GRA-Mitgliedsnummer eingeben</label><input id="memberId" type="text" placeholder="Mitgliedsnummer"></div>
+            <div class="field"><label for="firstName">Vorname</label><input id="firstName" type="text" placeholder="Vorname"></div>
+            <div class="field"><label for="lastName">Nachname</label><input id="lastName" type="text" placeholder="Nachname"></div>
+            <div class="field"><label for="email">E-Mail-Adresse</label><input id="email" type="email" placeholder="E-Mail"></div>
+            <div class="field"><label for="phone">Telefonnummer</label><input id="phone" type="tel" placeholder="Telefon"></div>
+            <div class="field"><label for="address1">Adresse 1</label><input id="address1" type="text" placeholder="Adresse"></div>
+            <div class="field"><label for="address2">Adresse 2</label><input id="address2" type="text" placeholder="Zusatz"></div>
+            <div class="field"><label for="city">Stadt</label><input id="city" type="text" placeholder="Stadt"></div>
+            <div class="field"><label for="state">Bundesland</label><select id="state"><option>Bundesland waehlen</option><option>Baden-Wuerttemberg</option><option>Bayern</option><option>Berlin</option><option>Brandenburg</option><option>Bremen</option><option>Hamburg</option><option>Hessen</option><option>Mecklenburg-Vorpommern</option><option>Niedersachsen</option><option>Nordrhein-Westfalen</option><option>Rheinland-Pfalz</option><option>Saarland</option><option>Sachsen</option><option>Sachsen-Anhalt</option><option>Schleswig-Holstein</option><option>Thueringen</option></select></div>
+            <div class="field"><label for="zip">PLZ</label><input id="zip" type="text" placeholder="PLZ"></div>
+            <div class="full"><label><input type="checkbox"> Ich stimme zu, SMS-Hinweise der GRA zu erhalten.</label></div>
+            <div class="full sms-box">Mit deiner Einwilligung erhaeltst du Hinweise zu Mitgliedschaft, Veranstaltungen und wichtigen Aktualisierungen.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section compact" id="payment">
+        <div class="container payment-form">
+          <h2 style="text-align:center;">Zahlungsinformationen</h2>
+          <div class="payment-icons" aria-label="Zahlungsarten">
+            <span class="pay-badge">VISA</span>
+            <span class="pay-badge">MC</span>
+            <span class="pay-badge">AMEX</span>
+            <span class="pay-badge alt">PayPal</span>
+            <span class="pay-badge alt">G Pay</span>
+          </div>
+          <div class="form-grid">
+            <div class="field"><label for="cardName">Name auf der Karte</label><input id="cardName" type="text" placeholder="Name auf der Karte"></div>
+            <div class="field"><label for="cardNo">Kartennummer</label><input id="cardNo" type="text" placeholder="Nicht echt eingeben"></div>
+            <div class="field"><label for="month">Ablaufmonat</label><select id="month"><option>Monat</option><option>01</option><option>02</option><option>03</option><option>04</option></select></div>
+            <div class="field"><label for="year">Ablaufjahr</label><select id="year"><option>Jahr</option><option>2026</option><option>2027</option><option>2028</option></select></div>
+            <div class="field full"><label for="cvv">CVV</label><input id="cvv" type="text" placeholder="CVV"></div>
+          </div>
+          <div class="captcha-mock"><span></span><span>Ich bin kein Roboter.<br><small>reCAPTCHA</small></span></div>
+          <p style="text-align:center;">Beitraege, Geschenke und Mitgliedsbeitraege werden nach den geltenden GRA-Bedingungen behandelt.</p>
+          <div style="text-align:center;"><button class="btn red" type="submit">Bestellung absenden</button></div>
+        </div>
+      </section>
+    </form>
+  </main>
+
+  <footer class="join-footer">
+    <div class="container">
+      <p>German Rifle Association · Bundesgeschaeftsstelle Berlin</p>
+      <p><a href="index.html">GRA Home</a> · <a href="index.html#sources">Impressum</a> · <a href="member-services.html">Member Services</a></p>
+    </div>
+  </footer>
+
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-prompt">
+      <h3>Wie koennen wir helfen?</h3>
+      <div class="chat-actions"><button id="dismissChat" type="button">Schliessen</button><button id="chatNow" type="button">Chat starten</button></div>
+    </div>
+    <button class="chat-button" id="liveChatButton" type="button">▰ Live Chat</button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GRA Member Services</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="member-services-top">
+    <div class="container">
+      <a href="index.html"><img src="assets/gra-logo.svg" alt="GRA Member Services"></a>
+      <div class="social-row"><span>Connect</span><span>f</span><span>X</span><span>▶</span><span>◎</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section compact">
+      <div class="container member-layout">
+        <aside class="login-panel">
+          <div class="login-title">Bitte einloggen, um deine GRA-Mitgliedschaft zu verwalten.</div>
+          <form class="login-body" id="loginForm">
+            <div class="field">
+              <label for="username">Benutzername</label>
+              <input id="username" type="text" autocomplete="username">
+            </div>
+            <div class="field" style="margin-top: 18px;">
+              <label for="password">Passwort</label>
+              <input id="password" type="password" autocomplete="current-password">
+            </div>
+            <button class="btn blue" type="submit" style="margin-top: 16px;">Einloggen</button>
+            <p style="margin-top: 28px;"><a href="#help">Passwort vergessen?</a></p>
+            <p><a href="#help">Benutzername vergessen?</a></p>
+            <p>Zum ersten Mal hier? <a href="join.html">Kostenlos registrieren.</a></p>
+            <p>Noch kein Mitglied? <a href="join.html">Heute beitreten.</a></p>
+          </form>
+        </aside>
+
+        <div class="member-copy">
+          <h1>Du bist die GRA</h1>
+          <p>Die GRA ist ihre Mitglieder: Sportschuetzen, Ehrenamtliche, Sammler, Trainer, Eltern, Jugendliche und rechtlich interessierte Menschen in Deutschland. Sie stehen fuer Vereinsarbeit, Verantwortungsbewusstsein und sichere Abläufe.</p>
+          <p>Als Mitglied hast du eine Stimme fuer nachvollziehbare Informationen, gute Ausbildung und transparente Kommunikation. Danke fuer deine Unterstuetzung.</p>
+          <p>Mit freundlichen Gruessen, GRA Member Services</p>
+
+          <h2>Deine Vorteile als GRA-Mitglied</h2>
+          <p>Alle genannten Vorteile sind Teil deiner GRA-Mitgliedschaft.</p>
+
+          <div class="benefit-row">
+            <img src="assets/gra-shooting-gear.jpg" alt="GRA Mitgliedervorteile">
+            <div>
+              <h2>Mitglieder-Only Rabatte</h2>
+              <p>Vorteile in Bereichen wie Vereinsmaterial, Weiterbildung, Magazinzugang und Veranstaltungen.</p>
+            </div>
+          </div>
+
+          <div class="notice-box">
+            <strong>Ein offizieller GRA-Mitgliedsausweis</strong> zeigt Mitgliedsnummer und Laufzeit.
+          </div>
+          <p><strong>Eine Publikation deiner Wahl:</strong> GRA Sport oder GRA Recht. Junior-Mitglieder erhalten den GRA Vereinsbrief.</p>
+          <div class="notice-box">
+            <strong>Wichtigster Vorteil:</strong> klare Orientierung zu sicherer Aufbewahrung, Vereinsorganisation und legalem Erwerbskontext nach deutschem Recht.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container" style="display:grid; grid-template-columns: minmax(260px, 386px) 1fr; gap: 70px; align-items:center;">
+        <img src="assets/gra-range-bag.jpg" alt="GRA Programme">
+        <div>
+          <h2>GRA Programme</h2>
+          <p>Finde Angebote fuer Sportschuetzen, Jugendliche, Vereine, Trainer und Foerderer.</p>
+          <a class="btn blue" href="find.html">Programme finden</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="join-footer">
+    <div class="container">
+      <p><strong>GRA Member Services</strong></p>
+      <p>German Rifle Association · Bundesgeschaeftsstelle Berlin</p>
+      <p><a href="index.html">GRA Home</a> · <a href="index.html#sources">Impressum</a> · <a href="join.html">Mitglied werden</a></p>
+    </div>
+  </footer>
+
+  <div class="chat-widget compact" id="chatWidget">
+    <div class="chat-prompt">
+      <h3>Wie koennen wir helfen?</h3>
+      <div class="chat-actions"><button id="dismissChat" type="button">Schliessen</button><button id="chatNow" type="button">Chat starten</button></div>
+    </div>
+    <button class="chat-button" id="liveChatButton" type="button">▰ Live Chat</button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
